@@ -1,10 +1,9 @@
 # ShorsAlgo-YQ25
 # ShorsAlgo-YQ25
-## Introduction  
-I competed at this year's YQuantum Hackathon, which was a very fun experience that I will definetly do again next year! I learned quite a lot about Qiskit, Qubits, and Quantum Computing in general. My team took the challenge offered by QuantumRings, which was to create a generalization of the Shor's Algorithm in 24 jours. We worked out the math on a chalkboard to understand, and we faced a lot of painful technical difficulties. Despite all this, we managed to finish up the Shor's Algorithm on the morning of the second day (unfortunately, we submitted a version with a bug, so we didn't win, but we still learned quite a lot of stuff). After the competition, I cleaned up the code, optimized it a bit, and uploaded it to this github. It's quite simple to use; **one simply needs to create a QuantumRings account at https://portal.quantumrings.com/signup/, generate an API token, and fill in the required fields in the 3rd box in the main.ipynb file**. From there, the program will prompt you for a number and procede to factor it.
+## Introduction 
 ## Stats
-Just some benchmarks of the current performance. The time includes with IO operations, so in reality the algo may even be a little  faster.
-The averages are taken from 15 different runs of the Shor's algorithm on N (running only one job)
+Data collected from the algorithm.
+The averages are taken from 15 different runs of the Shor's algorithm factoring N (running only one job)
 | N	  | Total Qubits | Avg Attempts |	Average Time |
 |-----|--------------|--------------|--------------|
 |15	  | 8	           | 13.9	        | 3.80s        |
